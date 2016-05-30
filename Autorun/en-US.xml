@@ -1,0 +1,166 @@
+<LANGUAGE CODE="1033" NAME="English" TITLE="Site Administrator for SharePoint® 5.2.4"> 
+
+ 	<LAYOUT WIDTH="1000" HEIGHT="700">
+		<COMPANY NAME="Dell Inc." URL="http://software.dell.com" />
+		<PACKAGE NAME="Site Administrator for SharePoint®" IMAGE="masthead.png" URL="http://software.dell.com/products/site-administrator-for-sharepoint/" />
+		<COPYRIGHT YEAR="2015" />
+	</LAYOUT>
+
+	<SECTION NAME="Home" TYPE="html" ICON="home"><![CDATA[
+	<a name="home"></a><h1>Welcome to Site Administrator for SharePoint® 5.2.4</h1>
+	<p>Thank you for choosing Site Administrator for SharePoint® - a secure and easy to use web application for managing SharePoint 2007, 2010 and 2013 environments. It provides various security trimmed reports on SharePoint storage, user activity, permissions and access settings, it integrates with SharePoint to enable content owner access to these advanced reports, and it performs bulk permission changes and content management.
+</p>
+	<h2>What's new in this release</h2>
+	<ul>
+		<li>Site Administrator for SharePoint 5.2.4 is a maintenance release and includes resolved issues. These resolved 
+issues are itemized in the Release Notes that accompany this release.</li>
+	</ul>
+	<p>For more information visit the official product <a href="http://software.dell.com/products/site-administrator-for-sharepoint/">Site Administrator for SharePoint®</a>.</p>
+	<p>To proceed with deployment, open the <a href="javascript:parent.t01.click()" target="_self">Prerequisites</a> tab.</p>
+	]]></SECTION>
+
+	<SECTION NAME="Prerequisites" TYPE="list" ICON="prerequisites">
+		<GROUP NAME="Read this First">		
+			<ITEM NAME="Product Name Release Notes" PATH="\Site Administrator for SharePoint\SiteAdministratorForSharePoint_5.2.4_ReleaseNotes.pdf">
+				<DESCRIPTION><![CDATA[
+				Read carefully the critical product information and last minute updates before planning for deployment of <b>Site Administrator for SharePoint®</b>
+				]]></DESCRIPTION>
+			</ITEM>
+			<ITEM NAME="System Requirements" PATH="\Documentation\SiteAdministratorForSharePoint_5.2.4_UserGuide.pdf">
+				<DESCRIPTION><![CDATA[
+				Please read the <b>System Requirements</b> section of the <b>User Guide</b> before installing the product and its prerequisites on computers in your network
+				]]></DESCRIPTION>
+			</ITEM>
+		</GROUP>
+
+		<GROUP NAME="Software Prerequisites">
+			<ITEM NAME="Microsoft .NET Framework 4" VERSION="4.0" PATH="\Redistributables\Net Framework\dotNetFx40_Full_setup.exe" BUTTON="Install">
+				<DESCRIPTION><![CDATA[
+				Install this component on all computers that you plan to use for <b>Security Explorer</b>
+				]]></DESCRIPTION>
+			</ITEM>
+		</GROUP>
+
+	</SECTION>
+
+	<SECTION NAME="Documentation" TYPE="list" ICON="documentation" NOTE="Adobe Acrobat Reader 7.0 or later is required to view the documentation on this CD. If you don't have Adobe Reader installed, &lt;a href=&quot;http://get.adobe.com/reader/&quot;&gt;obtain the latest version&lt;/a&gt; from Adobe, Inc.">
+		<GROUP NAME="Online Resources">
+			<ITEM NAME="Documentation" PATH="http://documents.software.dell.com/Site Admin for Sharepoint" BUTTON="Browse">
+				<DESCRIPTION><![CDATA[
+				Read the documentation for <b>Site Administrator for SharePoint®</b> online
+				]]></DESCRIPTION>
+			</ITEM>
+		</GROUP>
+
+		<GROUP NAME="Site Administrator for SharePoint® Documentation">              
+			<ITEM NAME="Product Overview" VERSION="02/28/13" PATH="\Documentation\SiteAdministratorForSharePoint_5.2.4_ProductOverview.pdf">
+				<DESCRIPTION><![CDATA[
+				]]></DESCRIPTION>
+			</ITEM>           
+
+			<ITEM NAME="User Guide" VERSION="02/28/13" PATH="\Documentation\SiteAdministratorForSharePoint_5.2.4_UserGuide.pdf">
+				<DESCRIPTION><![CDATA[
+				Read the latest user guide version at <a href="http://documents.quest.com/Site Admin for Sharepoint" target="_blank">http://documents.quest.com/Site Admin for Sharepoint</a>
+				]]></DESCRIPTION>
+			</ITEM>
+		</GROUP>
+	</SECTION>
+
+	<SECTION NAME="Install" TYPE="list" ICON="install">
+		<ITEM NAME="Check for Updates" ICON="update" BUTTON="Go" PATH="https://support.software.dell.com/site-admin-for-sharepoint">
+			<!--
+			Replace XXXXXX with your product code. For details, see the Embedded Support Best Practices-Support Links document.
+			-->
+			<DESCRIPTION><![CDATA[
+			Visit the product support page to check if there are software updates available for <b>Site Administrator for SharePoint® 5.2.4</b> and its components.
+			]]></DESCRIPTION>
+		</ITEM>  
+	  
+		<GROUP NAME="Install">
+			<ITEM NAME="Click here to install Site Administrator for SharePoint®" PATH="\Site Administrator for SharePoint\setup.exe" BUTTON="Install">
+				<DESCRIPTION><![CDATA[
+				Site Administrator for SharePoint® is a secure and easy to use web application for managing SharePoint 2007, 2010 and 2013 environments. It provides various security trimmed reports on SharePoint storage, user activity, permissions and access settings, it integrates with SharePoint to enable content owner access to these advanced reports, and it performs bulk permission changes and content management.
+				<br>
+				<br>
+				<i>Note: For upgrade instructions please refer to the release notes.</i>
+				]]></DESCRIPTION>
+			<LINK NAME="Release Notes" PATH="\Site Administrator for SharePoint\SiteAdministratorForSharePoint_5.2.4_ReleaseNotes.pdf" />
+			</ITEM>  
+
+			<ITEM NAME="Click here to install Security Explorer 9.5" PATH="\Site Administrator for SharePoint\DellSecurityExplorer.msi" BUTTON="Install">
+				<DESCRIPTION><![CDATA[
+				Security Explorer component enables SharePoint administrators to centrally manage every aspect of SharePoint 2007 and SharePoint 2010 security. It enables SharePoint administrators to quickly find where users have access, provision and de-provision user and group permissions, backup and restore access settings, and much more.
+				]]>
+				</DESCRIPTION>    
+			</ITEM>   
+		</GROUP>
+	</SECTION>
+
+
+	<SECTION NAME="Support" TYPE="list" ICON="support">
+		<ITEM NAME="Support" PATH="https://support.software.dell.com/site-admin-for-sharepoint" BUTTON="Browse">
+			<!--
+			Replace XXXXXX with your product code. For details, see the Embedded Support Best Practices-Support Links document.
+			-->
+			<DESCRIPTION><![CDATA[
+			The Support Portal (<a href="https://support.software.dell.com">https://support.software.dell.com</a>) is the definitive resource for technical support with self-help capabilities so you can solve problems quickly and independently 24 hours a day, 365 days a year.
+			]]></DESCRIPTION>
+		</ITEM>
+		<ITEM NAME="Check for Updates" PATH="https://support.software.dell.com/site-admin-for-sharepoint" ICON="update" BUTTON="Check">
+			<!--
+			Replace XXXXXX with your product code. For details, see the Embedded Support Best Practices-Support Links document.
+			-->
+			<DESCRIPTION><![CDATA[
+			Look up new release, patches and updates for Site Administrator for SharePoint®
+			]]></DESCRIPTION>
+		</ITEM>
+		<ITEM NAME="Knowledge Base" PATH="https://support.software.dell.com/site-admin-for-sharepoint/kb?amp%3bpv=4294946840" ICON="knowledgebase" BUTTON="Browse">
+			<!--
+			Replace XXXXXX with your product code and version code. For details, see the Embedded Support Best Practices-Support Links document.
+			-->
+			<DESCRIPTION><![CDATA[
+			Search our extensive Knowledge Base to quickly find answers to common questions
+			]]></DESCRIPTION>
+		</ITEM>
+		<ITEM NAME="Join Communities" PATH="http://communities.quest.com/community/sharepointforall/management" ICON="community" BUTTON="Browse">
+			<!--
+			Provide your community address or remove the item.
+			-->
+			<DESCRIPTION><![CDATA[
+			Get solutions, join discussion forums, hear from experts and voice your opinion in <b>Site Administrator for SharePoint®</b> community
+			]]></DESCRIPTION>
+		</ITEM>
+		<ITEM NAME="Get Online Support" PATH="https://support.software.dell.com/Manage-Service-Request" ICON="support" BUTTON="Browse">
+			<DESCRIPTION><![CDATA[
+			Log new service requests and manage existing ones online
+			]]></DESCRIPTION>
+		</ITEM>
+	</SECTION>
+
+	<SECTION NAME="Free Tools" TYPE="html"><![CDATA[
+	<h2>AttachThis <i>for SharePoint</i></h2>
+
+	<p>Compel SharePoint adoption, increase content collaboration and ensure document security and availability without changing user behavior.  Dell AttachThis is a simple, focused and fast Outlook add-in that uploads email attachments to SharePoint and replaces them with secure links in a way that is intuitive to end-users. </p>
+	<a href='http://www.quest.com/SiteAdminAutoRun_AttachThis' TARGET='_blank'>Download AttachThis now</a>
+
+	<br><br>	
+	<h2>Social Hub</h2>
+
+	<p>Dell Social Hub is a new app for Microsoft SharePoint 2013 that integrates external social media content within SharePoint, enabling users to view and respond to Facebook, Twitter, and RSS feeds from within a single SharePoint interface. With Social Hub users can aggregate and filter content in relevant and meaningful ways, and post to multiple social networks at once to make social collaboration fast and easy. By bringing external social feeds into SharePoint, organizations can keep user collaboration inside the enterprise and further enhance the user experience.</p>
+	<a href='http://www.quest.com/SASocialHub' TARGET='_blank'>Learn more and download Social Hub from Microsoft Office Store</a> 
+	]]></SECTION>
+    
+	<SECTION NAME="Contact Us" TYPE="html" ICON="contact"><![CDATA[
+	<h1>Contact Information</h1>
+	<p>Dell listens to customers and delivers worldwide innovative technology, business solutions and services they trust and value.
+	For more information, visit <a href="http://www.dell.com/">www.dell.com</a></p>
+	<h3>Technical Support:</h3>
+	<p><a href="https://support.software.dell.com/essentials/contact-technical-support">Online Support</a></p>
+	<h3>Product Questions and Sales:</h3>
+	<p>(800) 306 - 9329</p>
+	<h3>Email:</h3>
+	<p><a href="mailto:info@software.dell.com">info@software.dell.com</a></p>
+	<p>&nbsp;</p>
+	]]></SECTION>
+
+</LANGUAGE>
